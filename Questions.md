@@ -3,8 +3,8 @@
 - Write a class and show how RAII is used
 - How will u create an interface
 - Create two empty classes (how much memory will each object take ?)
-- Create these two classes as a base and chile and implement a print function
-- Caste Base to a child and and what happens
+- Create these two classes as a base and child and implement a print function
+- Cast Base to a child and and what happens
 - Caste  Child to base and what happens
 - Ans this code 
 ```cpp
@@ -14,10 +14,10 @@ MyClass obj{};
 MyClass obj = new MyClass()
 ```
 - Ans Qestions in this repo
-- Now create a graph data structure or linked list (you can choose) and add few vertexs and nodes to it
+- Now create a graph data structure or linked list (you can choose) and add few vertexes and nodes to it
     - Create a new branch and start working, and also write doc strings on the go
     - Now do a breadth first search on this
-    - Feel free to use standard libray documentations (No AI and No copy paste code), cpp-reference and other sources
+    - Feel free to use standard library documentations (No AI and No copy paste code), cpp-reference and other sources
     - Use stl
 
 # Cpp
@@ -31,8 +31,8 @@ MyClass obj = new MyClass()
     - What is an interface and why use it
 - Smart pointers types and uses
 - Copy Elision
-- Pass by vaue and pass by reference
-    - lvalue and rvalues
+- Pass by value and pass by reference
+    - lvalues and rvalues
 - Move Schematics
 - Return type deduction
 - Templates
@@ -42,7 +42,7 @@ MyClass obj = new MyClass()
 - Diff between map and unordered map
     - What happens when there are hash collisions ?
 - constexpr, inline and extern
-    - How do these affect the compilation and linkin phase
+    - How do these affect the compilation and linking phase
 - optional, variants, expected, array, set, map.
 - Lambdas
 - strong vs weak types ?
@@ -51,11 +51,11 @@ MyClass obj = new MyClass()
 
 - What does a strong programing language mean ?
     - Why does a Python / Java code not compile ?
-- Is RUST compeletely safe language ?
+- Is RUST completely safe language ?
     - How does it ensure safety ?
     - Why do you think RUST does not have classes
 - Python everything is an object what does that mean ?
-- What does syntatic sugar mean ? any examples in cpp ?
+- What does syntactic sugar mean ? any examples in cpp ?
 
 # Build system (cpp)
 
@@ -91,8 +91,8 @@ MyClass obj = new MyClass()
     - Typed
 - ASSERT vs EXPECT
 - Monkey patching what is it ?
-- How do we use depedency injection in test ?
-- ASPICE angeneral types of testing
+- How do we use dependency injection in test ?
+- ASPICE and general types of testing
     - **Ans*
         - Unit
         - Integration
@@ -110,7 +110,7 @@ MyClass obj = new MyClass()
     - draw a state machine for a traffic light/or game character/ vending machine/ or an OS application (;) basically how os handles and schedules)
 - Builder pattern
 - Command pattern
-- Depedency Injection ?
+- Dependency Injection ?
     - Where do you think this is used in Automotive (ans could be for dataset and parameters)
 - Factory
 - Singleton
@@ -122,14 +122,14 @@ MyClass obj = new MyClass()
 
 # System
 
-- How can two applictions communicate between each other ? (answer could be Shared memory, Pipes, sockets)
+- How can two applications communicate between each other ? (answer could be Shared memory, Pipes, sockets)
     - What is an Deamon process ?
 - Pub-Sub architecture
     - Heard of ROS ?
 - What are threading, multi-processing and async/co-routines programing
     - *Ans:* 
-        - threading use multiple threads managed by OS, Asyn uses one thread and does co-operative context switches with yied and await
-        - Asyn is lower memory overhead and avoids race condition between threads. Threads managed by OS thus memory and performance overheads
+        - threading use multiple threads managed by OS, Async uses one thread and does co-operative context switches with yield and await
+        - Async is lower memory overhead and avoids race condition between threads. Threads managed by OS thus memory and performance overheads
     - What is yield and await ?
         - await placed inside async function to wait for a slow process to finish without blocking
         - await uses yield to return execution and return a promise (this promise is what tells us if the slow process is done or now)
@@ -146,6 +146,5 @@ MyClass obj = new MyClass()
 # Must ask
 
 - Why the switch ?
-- Explain the previous project (architecture and chalanges faced)
-- Ask about debuging done in previous projects
-- 
+- Explain the previous project (architecture and challenges faced)
+- Ask about debugging done in previous projects
